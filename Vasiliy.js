@@ -1,4 +1,4 @@
-var admin;
-var name="Василий";
-admin=name;
-alert(admin);
+var admin; //задаем переменную админ
+var name="Василий"; //задаем переменную имя и значение Василий
+admin=name; 
+alert(admin); //выводим значение переменной админ
