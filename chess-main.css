@@ -1,0 +1,29 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+#desk {
+       width: 320px;
+       height: 320px;
+       border: 1px black solid;
+    }
+
+   .square {
+    width: 40px;
+    height: 40px;
+    float: right;
+    color: rgba(101, 29, 150, 0.829);
+    font-size: 20px;
+   }
+
+.inline>div {
+    display: inline-block;
+}
+
+#digits-left>div, #digits-right>div {
+    height: 37px;
+    font-size: 22px;   
+    padding-top: 5px;
+}
