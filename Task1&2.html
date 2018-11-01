@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<title>Базовый курс JavaScript. Урок 6</title>
+		<style>
+			.slider_pics {
+				margin: auto;
+				width: 90%;
+				text-align: center;
+			}
+			.slider_pics img {
+				width: 10%;
+				height: auto;
+				cursor: pointer;
+			}
+			
+			.gallery {
+				width: 800px;
+				height: 550px;
+				background: #efefef;
+				margin: auto;
+				text-align: center;
+			}
+
+			.gallery > div {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.controls {
+				padding-top: 4px;
+				vertical-align: middle;
+				background: #fe9090;
+				cursor: pointer;
+			}
+			.slide_left {
+				
+			} 
+
+			.slide_right {
+			} 
+		
+			.img-container {
+				max-width: 600px;
+			}
+
+			#big_picture {
+				max-width: 600px;
+    			max-height: 500px;
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<div class="gallery">
+			<div class="controls" id="left"><i class="large material-icons">chevron_left</i></div>
+			<div class="img-container"><img src="img/jslogo.jpg" id="big_picture" /></div>
+			<div class="controls" id="right"><i class="large material-icons">chevron_right</i></div>
+		</div>
+			
+		<div class="slider_pics">
+			<img>
+			<img>
+			<img>
+			<img>
+		</div>
+		
+		<p onclick="alert('Clicked'); console.log('test');">Событие клик внутри html 1 вариант</p>
+		<p class="willBeClicked">Событие клик внутри html 2 вариант</p>
+		<p class="testInClick">Переопределение события onclick для willBeClicked</p>
+		<p class="btext btext2">Язык JavaScript является основным языком программирования в сети Интернет. Перво-наперво он позволяет расширять стандартное поведение пользователя в веб-страницах. Вместо сухих статичных страниц, которые просто <a href="http://yandex.ru">показываются</a> пользователю <em>друг за другом</em>, с JavaScript <b>страница будет</b> взаимодействовать с пользователями, откликаться на его действия, получать и применять данные из Интернет и делать многое другое. </p>
+		<ul style="text-align:left;">
+			<li>Элемент 1</li>
+			<li>Элемент 2</li>
+			<li>Элемент 3</li>
+		</ul>
+		<div id="ForAppend"></div>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
